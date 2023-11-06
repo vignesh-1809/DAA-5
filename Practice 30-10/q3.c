@@ -2,7 +2,7 @@
 #include <stdbool.h>
 #include <limits.h>
 
-#define V 6 // Number of vertices in the graph
+#define V 6 
 
 int minDistance(int dist[], bool sptSet[]) {
     int min = INT_MAX, min_index;
